@@ -1,3 +1,3 @@
-# Photometric-Approach-to-Surface-Reconstruction-of-Artist-Paintings
+# Photometric Approach to Surface Reconstruction of Artist Paintings
 
 
