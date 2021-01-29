@@ -1,7 +1,7 @@
 # Photometric Approach to Surface Reconstruction of Artist Paintings
 
 
-Interactive renderer program for the surface reconstruction of oil paintings, using Two-Shot SVBRDF Capture for Stationary Materials by Aittala et al (2015).
+Interactive renderer program for the surface reconstruction of oil paintings, using [Two-Shot SVBRDF Capture for Stationary Materials](https://mediatech.aalto.fi/publications/graphics/TwoShotSVBRDF/) by Aittala et al (2015).
 
 
 
