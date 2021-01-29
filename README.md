@@ -5,7 +5,7 @@ Interactive renderer program for the surface reconstruction of oil paintings, us
 
 
 
-Get Started
+## Get Started
 
 
 
@@ -18,6 +18,6 @@ Get Started
 
 
 
-References
+## References
 
 Miika Aittala, Tim Weyrich, and Jaakko Lehtinen. 2015. Two-shot SVBRDF capture for stationary materials. <i>ACM Trans. Graph.</i> 34, 4, Article 110 (August 2015), 13 pages. DOI:https://doi.org/10.1145/2766967
