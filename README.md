@@ -17,7 +17,7 @@ Interactive renderer program for the surface reconstruction of oil paintings, us
      
 3.  The directory file which consists images should be encapsulated by another file. To clarify, let's call this file _data_ . Inside of the _data_ file there should be the main directory. (e.g. data/painting)
 
-4. After downloading source code of Two-Shot svBRDF capture model, open the source code in MATLAB by adding the paths of source code file. 
+4. After downloading source code of Two-Shot svBRDF capture model, open the source code in MATLAB (only MATLAB source code, not the renderer) by adding the paths of source code file. 
 
 5. In the main code file called SOLVE_ALL, replace the data_path with path of your _data_ file. Then, add your directory file name to the dataset list called files. (e.g. painting) 
 
