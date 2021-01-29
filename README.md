@@ -7,7 +7,7 @@ Interactive renderer program for the surface reconstruction of oil paintings, us
 
 ## Get Started
 
-1. Two photographs should be taken without changing the camera position, preferably using stable tripod. Any smart phone camera would work, if the shots are succesful in terms of resolution and consistency.
+1. Two photographs of the oilpainting should be taken without changing the camera position, preferably using stable tripod. Any smart phone camera would work, if the shots are succesful in terms of resolution and consistency.
      - First photo should be taken under constant illumination conditions, but distinct highlight and shadows should be avoided in this guide photo. 
      - Second photo should be taken using flash light, and the circular highligt due to the flash lighting should be close to the image center.
 
@@ -28,7 +28,7 @@ Interactive renderer program for the surface reconstruction of oil paintings, us
      - Global Optimization Toolbox
      - Symbolic Math Toolbox
 
-7. Before running the model in MATLAB, field of view (FOV) value of the device using for photography and resolution of the photos should be updated in tex_alternate.m file. 
+7. Before running the model in MATLAB, field of view (FOV) value of the device used for photography and resolution of the photos should be updated in tex_alternate.m file. 
 
 
 
