@@ -17,17 +17,20 @@ Interactive renderer program for the surface reconstruction of oil paintings, us
      
 3.  The directory file which consists images should be encapsulated by another file. To clarify, let's call this file _data_ . Inside of the _data_ file there should be the main directory. (example: data/painting)
 
-4. After downloading source code of Two-Shot svBRDF capture model, open the source code in MATLAB by adding the sorurce code files' paths. 
-4. The Two-Shot svBRDF capture model runs in MATLAB, and required add-ons for the succesful execution is listed below.
+4. After downloading source code of Two-Shot svBRDF capture model, open the source code in MATLAB by adding the paths of source code file. 
+
+5. In the main code file called SOLVE_ALL, replace the data_path with path of your _data_ file. Then, add your directory file name to the dataset list called files. (example: painting) 
+
+6. Rquired add-ons for the succesful execution of the model in MATLAB are listed below.
      - Parallel Computing Toolbox
      - Image Processing Toolbox
      - Simulink
      - Global Optimization Toolbox
      - Symbolic Math Toolbox
 
-3. Before running the model in MATLAB, field of view (FOV) value of the device using for photography and resolution of the photos should be updated in tex_alternate.m file. 
+7. Before running the model in MATLAB, field of view (FOV) value of the device using for photography and resolution of the photos should be updated in tex_alternate.m file. 
 
-4. 
+
 
 
 
