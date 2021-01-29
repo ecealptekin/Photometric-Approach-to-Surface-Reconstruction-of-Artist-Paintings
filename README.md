@@ -21,7 +21,7 @@ Interactive renderer program for the surface reconstruction of oil paintings, us
 
 5. In the main code file called SOLVE_ALL, replace the data_path with path of your _data_ file. Then, add your directory file name to the dataset list called files. (example: painting) 
 
-6. Rquired add-ons for the succesful execution of the model in MATLAB are listed below.
+6. Required add-ons for the succesful execution of the model in MATLAB are listed below.
      - Parallel Computing Toolbox
      - Image Processing Toolbox
      - Simulink
