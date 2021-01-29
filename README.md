@@ -31,7 +31,7 @@ Interactive renderer program for the surface reconstruction of oil paintings, us
 7. Before running the model in MATLAB, field of view (FOV) value of the device used for photography and resolution of the photos should be updated in tex_alternate.m file. 
 
 
-
+## Outputs of svBRDF Capture
 
 
 
