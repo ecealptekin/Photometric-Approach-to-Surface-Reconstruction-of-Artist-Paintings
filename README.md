@@ -7,7 +7,9 @@ Interactive renderer program for the surface reconstruction of oil paintings, us
 
 ## Get Started
 
-
+1. Two photographs should be taken without changing the camera position, preferably using stable tripod. Any smart phone camera would work, if the shots are succesful in terms of resolution and consistency.
+     - First photo should be taken under constant illumination conditions, but distinct highlight and shadows should be avoided in this guide photo. 
+     - Second photo should be taken using flash light, and the circular highligt due to the flash lighting should be close to the image center.
 
 
 
