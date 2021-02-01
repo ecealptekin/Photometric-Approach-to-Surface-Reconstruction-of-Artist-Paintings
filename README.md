@@ -88,6 +88,7 @@ Ece Alptekin
 
 ## Output
 
+<img width="1642" alt="Screenshot 2021-02-01 at 22 36 43" src="https://user-images.githubusercontent.com/48667985/106508971-09828c80-64de-11eb-854f-fd3d71b2acfd.png">
 <img width="1576" alt="Screenshot 2021-02-01 at 15 44 39" src="https://user-images.githubusercontent.com/48667985/106461092-5ac25a00-64a5-11eb-9ce1-e36dd2b17c4c.png">
 <img width="1576" alt="Screenshot 2021-02-01 at 15 46 08" src="https://user-images.githubusercontent.com/48667985/106461134-69a90c80-64a5-11eb-88f2-8ac3337a3cde.png">
 <img width="1576" alt="Screenshot 2021-02-01 at 15 46 40" src="https://user-images.githubusercontent.com/48667985/106461168-762d6500-64a5-11eb-9ca1-b43a382464ff.png">
