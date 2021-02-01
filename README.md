@@ -5,8 +5,8 @@ Interactive renderer program for the surface reconstruction of oil paintings, us
 
 ## Contributors
 
--Begüm Çelik
--Ece Alptekin
+Begüm Çelik
+Ece Alptekin
 
 
 ## Get Started
