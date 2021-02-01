@@ -99,14 +99,14 @@ Miika Aittala, Tim Weyrich, and Jaakko Lehtinen. 2015. Two-shot SVBRDF capture f
 
 # Türkçe
 
-# Photometric Approach to Surface Reconstruction of Artist Paintings
+# Sanatçı Resimlerinin Yüzey Rekonstrüksiyonuna Fotometrik Yaklaşım
 
 
 Interactive renderer program for the surface reconstruction of oil paintings, using [Two-Shot SVBRDF Capture for Stationary Materials](https://mediatech.aalto.fi/publications/graphics/TwoShotSVBRDF/) by Aittala et al (2015).
 
 
 
-## Get Started
+## Başlangıç
 
 1. Two photographs of the oilpainting should be taken without changing the camera position, preferably using stable tripod. Any smart phone camera would work, if the shots are succesful in terms of resolution and consistency.
      - First photo should be taken under constant illumination conditions, but distinct highlight and shadows should be avoided in this guide photo. 
@@ -132,7 +132,7 @@ Interactive renderer program for the surface reconstruction of oil paintings, us
 7. Before running the model in MATLAB, field of view (FOV) value of the device used for photography and resolution of the photos should be updated in tex_alternate.m file. 
 
 
-## Output
+## Çıktı
 
 <img width="1678" alt="Screenshot 2021-01-24 at 15 49 02" src="https://user-images.githubusercontent.com/48667985/106440509-fe057600-6489-11eb-9aa8-1c75bc83cab8.png">
 
@@ -143,7 +143,7 @@ Interactive renderer program for the surface reconstruction of oil paintings, us
 <img width="1678" alt="Screenshot 2021-01-24 at 15 58 58" src="https://user-images.githubusercontent.com/48667985/106441019-96035f80-648a-11eb-8a9e-089b89f23869.png">
 
 
-## Rendering
+## İşleme
 
 1. Yeni bir Unity projesi High Definition RP 7.3.1 versiyon şablonu kullanılarak oluşturulur
 
@@ -190,6 +190,6 @@ Interactive renderer program for the surface reconstruction of oil paintings, us
      
 12. Set the position of the Plane, Spot Light, Main Camera and Canvas
 
-## References
+## Referanslar
 
 Miika Aittala, Tim Weyrich, and Jaakko Lehtinen. 2015. Two-shot SVBRDF capture for stationary materials. <i>ACM Trans. Graph.</i> 34, 4, Article 110 (August 2015), 13 pages. DOI:https://doi.org/10.1145/2766967
