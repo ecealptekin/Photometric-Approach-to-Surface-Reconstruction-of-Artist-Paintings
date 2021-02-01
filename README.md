@@ -58,7 +58,7 @@ Interactive renderer program for the surface reconstruction of oil paintings, us
      
 4. Add a Spot Light, which has the script MovingSLight.cs 
 
-5. Add a Canvas, an Event System and 5 Buttons 
+5. Add a Canvas, an Event System and 5 Buttons. Names of the Buttons are
      - Up
      - Down
      - Left
@@ -96,6 +96,8 @@ Miika Aittala, Tim Weyrich, and Jaakko Lehtinen. 2015. Two-shot SVBRDF capture f
 
 
 
+
+#TURKCE
 
 # Photometric Approach to Surface Reconstruction of Artist Paintings
 
@@ -143,11 +145,11 @@ Interactive renderer program for the surface reconstruction of oil paintings, us
 
 ## Rendering
 
-1. Create a new project with Unity using High Definition RP 7.3.1 version template
+1. Yeni bir Unity projesi High Definition RP 7.3.1 versiyon şablonu kullanılarak oluşturulur
 
-2. Add a 3D Object, Plane to the scene to illustrate the painting
+2. Sahneye resmin illüstrasyonu için 3D Object, Plane eklenir
 
-3. Prepare the texture maps
+3. Texture Map hazırlanır
      - Convert Specular Map and Diffusion Map into PNG using ImageMagick
      - Convert Normal Map into TIFF using ImageMagick
      - Use the input as the Base Map 
@@ -155,9 +157,9 @@ Interactive renderer program for the surface reconstruction of oil paintings, us
      - Adjusting image tones and correcting colors of the copied map with the image editor
      - Save the copied map as the Height Map
      
-4. Add a Spot Light, which has the script MovingSLight.cs 
+4. Spot Light eklenir, which has the script MovingSLight.cs 
 
-5. Add a Canvas, an Event System and 5 Buttons 
+5. Canvas, Event System ve 5 Button sahneye eklenir. Button isimleri şu şekildedir
      - Up
      - Down
      - Left
