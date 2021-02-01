@@ -136,23 +136,23 @@ using [Two-Shot SVBRDF Capture for Stationary Materials](https://mediatech.aalto
 2. Sahneye resmin illüstrasyonu için 3D Object, Plane eklenir
 
 3. Texture Map hazırlanır
-     - Convert Specular Map and Diffusion Map into PNG using ImageMagick
-     - Convert Normal Map into TIFF using ImageMagick
-     - Use the input as the Base Map 
-     - Make a copy of the Normal Map and convert it to a black and white image
-     - Adjusting image tones and correcting colors of the copied map with the image editor
-     - Save the copied map as the Height Map
+     - ImageMagick kullanılarak Specular Map ve Diffusion Map PNG formatına çevirilir
+     - ImageMagick kullanılarak Normal Map TIFF formatına çevirilir
+     - Orjinal resim Base Map olarak kullanılır
+     - Normal Map'in bir kopyası yaratılır ve siyah beyaz formata çevirilir
+     - Görüntü düzenleyici ile kopyalanan haritanın görüntü tonları ayarlanır ve renkleri düzeltilir
+     - Kopyalanan harita Height Map olarak kaydedilir
      
-4. Spot Light eklenir, which has the script MovingSLight.cs 
+4. Spot Light eklenir ve MovingSLight.cs script olarak kullanılır
 
-5. Canvas, Event System ve 5 Button sahneye eklenir. Button isimleri şu şekildedir
+5. Canvas, Event System ve 5 Buton sahneye eklenir. Butonların isimleri şu şekildedir
      - Up
      - Down
      - Left
      - Right
      - Quit
      
-6. The C# scripts of the buttons are in the Assets folder. For each button add the corresponding script to the Inspector of that button. Set OnClick() of a button as follows:
+6. Butonların C# script'leri Assets klasöründedir. Her buton için ilgili script dosyası o butonun Inspector bölümüne eklenir. Bir butonun OnClick() bölümü şu şekilde ayarlanır:
 
 <img width="450" alt="Screenshot 2021-02-01 at 13 30 09" src="https://user-images.githubusercontent.com/48667985/106446780-b71b7e80-6491-11eb-964a-11e169cd045c.png">
 
