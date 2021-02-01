@@ -9,6 +9,9 @@ Begüm Çelik
 
 Ece Alptekin
 
+## Supervisor
+
+Selim Balcısoy
 
 ## Get Started
 
