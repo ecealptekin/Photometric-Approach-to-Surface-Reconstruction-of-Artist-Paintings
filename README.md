@@ -106,6 +106,7 @@ Miika Aittala, Tim Weyrich, and Jaakko Lehtinen. 2015. Two-shot SVBRDF capture f
 Yağlı boya tabloların yüzey rekonstrüksiyonu için interaktif render programı 
 using [Two-Shot SVBRDF Capture for Stationary Materials](https://mediatech.aalto.fi/publications/graphics/TwoShotSVBRDF/) by Aittala et al (2015).
 
+Yağlı boya kullanılarak üretilmiş sanat eserlerinde malzemenin kendi yapısının olanak sağladığı farklı uygulama biçimlerinin, sanat eserinin orijinal görünümünde nasıl etkili rol oynadığı birçok sanat eleştirmeni ve tarihçisi tarafından üzerine çalışılan bir konu olmuştur. Bu doğrultuda sanat eserlerinin orijinaline en uygun şekilde görüntülenebilmesi için, fotoğrafın ötesinde, yağlı boya eserlerin doku ve parlaklık gibi resmin algılanışında etkili olan diğer özellikleri de yansıtılarak gerçeğe uygun bir reprodüksiyon üretilmesi amaçlanmaktadır.
 
 ## Başlangıç
 
