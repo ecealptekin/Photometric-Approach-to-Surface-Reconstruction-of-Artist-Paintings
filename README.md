@@ -38,16 +38,6 @@ Ece Alptekin
 
 7. Before running the model in MATLAB, field of view (FOV) value of the device used for photography and resolution of the photos should be updated in tex_alternate.m file. 
 
-
-## Output
-
-<img width="1576" alt="Screenshot 2021-02-01 at 15 44 39" src="https://user-images.githubusercontent.com/48667985/106461092-5ac25a00-64a5-11eb-9ce1-e36dd2b17c4c.png">
-<img width="1576" alt="Screenshot 2021-02-01 at 15 46 08" src="https://user-images.githubusercontent.com/48667985/106461134-69a90c80-64a5-11eb-88f2-8ac3337a3cde.png">
-<img width="1576" alt="Screenshot 2021-02-01 at 15 46 40" src="https://user-images.githubusercontent.com/48667985/106461168-762d6500-64a5-11eb-9ca1-b43a382464ff.png">
-<img width="1576" alt="Screenshot 2021-02-01 at 15 47 58" src="https://user-images.githubusercontent.com/48667985/106461193-7e85a000-64a5-11eb-9dac-a9d4d9607580.png">
-<img width="1576" alt="Screenshot 2021-02-01 at 15 48 59" src="https://user-images.githubusercontent.com/48667985/106461215-86454480-64a5-11eb-8824-b66769f73819.png">
-<img width="1576" alt="Screenshot 2021-02-01 at 15 49 24" src="https://user-images.githubusercontent.com/48667985/106461233-8ba28f00-64a5-11eb-87e1-25819312b535.png">
-
 ## Rendering
 
 1. Create a new project with Unity using High Definition RP 7.3.1 version template
@@ -94,6 +84,15 @@ Ece Alptekin
      - Surface Inputs->Height Map->Parametrization->Amplitude can be adjusted
      
 12. Set the position of the Plane, Spot Light, Main Camera and Canvas
+
+## Output
+
+<img width="1576" alt="Screenshot 2021-02-01 at 15 44 39" src="https://user-images.githubusercontent.com/48667985/106461092-5ac25a00-64a5-11eb-9ce1-e36dd2b17c4c.png">
+<img width="1576" alt="Screenshot 2021-02-01 at 15 46 08" src="https://user-images.githubusercontent.com/48667985/106461134-69a90c80-64a5-11eb-88f2-8ac3337a3cde.png">
+<img width="1576" alt="Screenshot 2021-02-01 at 15 46 40" src="https://user-images.githubusercontent.com/48667985/106461168-762d6500-64a5-11eb-9ca1-b43a382464ff.png">
+<img width="1576" alt="Screenshot 2021-02-01 at 15 47 58" src="https://user-images.githubusercontent.com/48667985/106461193-7e85a000-64a5-11eb-9dac-a9d4d9607580.png">
+<img width="1576" alt="Screenshot 2021-02-01 at 15 48 59" src="https://user-images.githubusercontent.com/48667985/106461215-86454480-64a5-11eb-8824-b66769f73819.png">
+<img width="1576" alt="Screenshot 2021-02-01 at 15 49 24" src="https://user-images.githubusercontent.com/48667985/106461233-8ba28f00-64a5-11eb-87e1-25819312b535.png">
 
 ## References
 
