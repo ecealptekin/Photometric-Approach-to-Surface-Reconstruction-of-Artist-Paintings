@@ -77,6 +77,7 @@ Ece Alptekin
 
 11. Set the Material 
      - Surface Options->Displacement Mode->Tesellation Displacement
+     - Tesellation Options->Tesellation Mode->Phong 
      - Tesellation Options->Tesellation Factor can be adjusted
      - Surface Inputs->Base Map->Metallic can be adjusted
      - Surface Inputs->Base Map->Smoothness Remapping can be adjusted
@@ -170,6 +171,7 @@ Yağlı boya kullanılarak üretilmiş sanat eserlerinde malzemenin kendi yapıs
 
 11. Materyal ayarlanır 
      - Surface Options->Displacement Mode->Tesellation Displacement
+     - Tesellation Options->Tesellation Mode->Phong 
      - Tesellation Options->Tesellation Factor değiştirilebilir
      - Surface Inputs->Base Map->Metallic değiştirilebilir
      - Surface Inputs->Base Map->Smoothness Remapping değiştirilebilir
