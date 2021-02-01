@@ -65,7 +65,7 @@ Ece Alptekin
 
 <img width="450" alt="Screenshot 2021-02-01 at 13 30 09" src="https://user-images.githubusercontent.com/48667985/106446780-b71b7e80-6491-11eb-964a-11e169cd045c.png">
 
-7. The Spot Light is controllable by the keyboard. The keyboard preferences have to be set in Project Settings->Input Manager
+7. The position of the Spot Light is controllable by the keyboard. The keyboard preferences have to be set in Project Settings->Input Manager
 
 8. The Plane rotates according to the directions written on the buttons when the buttons are pressed. The Inspector of the Plane contains scripts of the Buttons and the Material 
 
@@ -159,7 +159,7 @@ Yağlı boya tabloların yüzey rekonstrüksiyonu için interaktif render progra
 
 <img width="450" alt="Screenshot 2021-02-01 at 13 30 09" src="https://user-images.githubusercontent.com/48667985/106446780-b71b7e80-6491-11eb-964a-11e169cd045c.png">
 
-7. Spot Light klavye ile kontrol edilebilir. Klavye tercihleri Project Settings->Input Manager bölümünden ayarlanır
+7. Spot Light pozisyonu klavye ile kontrol edilebilir. Klavye tercihleri Project Settings->Input Manager bölümünden ayarlanır
 
 8. Butonlara basıldığında Plane butonun üzerinde yazan yöne doğru dönmektedir. Düzlemin Inspector bölümü butonların script'lerini ve materyali içermektedir
 
