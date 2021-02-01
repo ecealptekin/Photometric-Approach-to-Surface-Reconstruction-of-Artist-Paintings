@@ -69,9 +69,9 @@ Interactive renderer program for the surface reconstruction of oil paintings, us
 
 <img width="450" alt="Screenshot 2021-02-01 at 13 30 09" src="https://user-images.githubusercontent.com/48667985/106446780-b71b7e80-6491-11eb-964a-11e169cd045c.png">
 
-7. The Spot Light is controllable by the keyboard. The keyboard preferences have to be set in Project Settings->Input Manager.
+7. The Spot Light is controllable by the keyboard. The keyboard preferences have to be set in Project Settings->Input Manager
 
-8. The Plane rotates according to the directions written on the buttons when the buttons are pressed.
+8. The Plane rotates according to the directions written on the buttons when the buttons are pressed
 
 9. Create a HDRP/LitTesellation material and apply texture maps to the material
 
@@ -84,7 +84,8 @@ Interactive renderer program for the surface reconstruction of oil paintings, us
      - Surface Inputs->Base Map->Smoothness Remapping can be adjusted
      - Surface Inputs->Base Map->Ambient Occlusion Remapping can be adjusted
      - Surface Inputs->Height Map->Parametrization->Amplitude can be adjusted
-
+     
+12. Set the position of the Plane, Spot Light, Main Camera and Canvas
 
 ## References
 
