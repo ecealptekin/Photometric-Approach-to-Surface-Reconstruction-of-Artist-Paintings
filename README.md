@@ -44,6 +44,32 @@ Interactive renderer program for the surface reconstruction of oil paintings, us
 
 ## Rendering
 
+1. Create a new project with Unity using High Definition RP 7.3.1 version template
+
+2. Add a 3D Object, Plane to the scene to illustrate the painting
+
+3. Create a material of the painting using the texture maps in the output file.
+     - Convert Specular Map and Diffusion Map into PNG using ImageMagick
+     - Convert Normal Map into TIFF using ImageMagick
+     - Use the input as the Base Map 
+     - Make a copy of the Normal Map and convert it to a black and white image
+     - Adjusting image tones and correcting colors of the copied map with the image editor
+     - Save the copied map as the Height Map
+     
+4. Add a Spot Light 
+
+5. Add 5 Buttons 
+     - Up
+     - Down
+     - Left
+     - Right
+     - Quit
+     
+6. The C# scripts of the buttons are in the Assets folder. 
+     
+     
+     
+
 
 ## References
 
