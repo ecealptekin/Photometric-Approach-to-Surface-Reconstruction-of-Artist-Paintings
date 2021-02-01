@@ -33,6 +33,7 @@ Interactive renderer program for the surface reconstruction of oil paintings, us
 
 ## Output
 
+<img width="1678" alt="Screenshot 2021-01-24 at 15 49 02" src="https://user-images.githubusercontent.com/48667985/106440509-fe057600-6489-11eb-9aa8-1c75bc83cab8.png">
 
 
 ## Rendering
