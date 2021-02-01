@@ -145,7 +145,7 @@ using [Two-Shot SVBRDF Capture for Stationary Materials](https://mediatech.aalto
      
 4. Spot Light eklenir ve MovingSLight.cs script olarak kullanılır
 
-5. Canvas, Event System ve 5 Buton sahneye eklenir. Butonların isimleri şu şekildedir
+5. Canvas, Event System ve 5 Buton sahneye eklenir. Butonların isimleri
      - Up
      - Down
      - Left
@@ -156,25 +156,25 @@ using [Two-Shot SVBRDF Capture for Stationary Materials](https://mediatech.aalto
 
 <img width="450" alt="Screenshot 2021-02-01 at 13 30 09" src="https://user-images.githubusercontent.com/48667985/106446780-b71b7e80-6491-11eb-964a-11e169cd045c.png">
 
-7. The Spot Light is controllable by the keyboard. The keyboard preferences have to be set in Project Settings->Input Manager
+7. Spot Light klavye ile kontrol edilebilir. Klavye tercihleri Project Settings->Input Manager bölümünden ayarlanır
 
-8. The Plane rotates according to the directions written on the buttons when the buttons are pressed. The Inspector of the Plane contains scripts of the Buttons and the Material 
+8. Butonlara basıldığında Plane butonun üzerinde yazan yöne doğru dönmektedir. Düzlemin Inspector bölümü butonların script'lerini ve materyali içermektedir
 
 <img width="470" alt="Screenshot 2021-02-01 at 14 03 42" src="https://user-images.githubusercontent.com/48667985/106451321-732b7800-6497-11eb-95e2-90c156f5534f.png">
 
-9. Create a HDRP/LitTesellation Material and apply texture maps to the Material
+9. Bir HDRP/LitTesellation materyali yaratılır ve Texture Map'ler materyale uygulanır
 
-10. Apply the Material to the Plane
+10. Materyal Plane'e uygulanır
 
-11. Set the Material 
+11. Materyal ayarlanır 
      - Surface Options->Displacement Mode->Tesellation Displacement
-     - Tesellation Options->Tesellation Factor can be adjusted
-     - Surface Inputs->Base Map->Metallic can be adjusted
-     - Surface Inputs->Base Map->Smoothness Remapping can be adjusted
-     - Surface Inputs->Base Map->Ambient Occlusion Remapping can be adjusted
-     - Surface Inputs->Height Map->Parametrization->Amplitude can be adjusted
+     - Tesellation Options->Tesellation Factor değiştirilebilir
+     - Surface Inputs->Base Map->Metallic değiştirilebilir
+     - Surface Inputs->Base Map->Smoothness Remapping değiştirilebilir
+     - Surface Inputs->Base Map->Ambient Occlusion Remapping değiştirilebilir
+     - Surface Inputs->Height Map->Parametrization->Amplitude değiştirilebilir
      
-12. Set the position of the Plane, Spot Light, Main Camera and Canvas
+12. Plane, Spot Light, Main Camera and Canvas pozisyonları ayarlanır
 
 ## Referanslar
 
