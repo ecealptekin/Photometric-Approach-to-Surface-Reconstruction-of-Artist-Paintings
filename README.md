@@ -3,15 +3,15 @@
 
 Interactive renderer program for the surface reconstruction of oil paintings, using [Two-Shot SVBRDF Capture for Stationary Materials](https://mediatech.aalto.fi/publications/graphics/TwoShotSVBRDF/) by Aittala et al (2015).
 
+## Supervisor
+
+Selim Balcısoy
+
 ## Contributors
 
 Begüm Çelik
 
 Ece Alptekin
-
-## Supervisor
-
-Selim Balcısoy
 
 ## Get Started
 
