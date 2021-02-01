@@ -132,7 +132,7 @@ using [Two-Shot SVBRDF Capture for Stationary Materials](https://mediatech.aalto
 
 ## İşleme
 
-1. Yeni bir Unity projesi High Definition RP 7.3.1 versiyon şablonu kullanılarak oluşturulur
+1. Yeni bir Unity projesi High Definition RP 7.3.1 versiyonunun şablonu kullanılarak oluşturulur
 
 2. Sahneye resmin illüstrasyonu için 3D Object, Plane eklenir
 
