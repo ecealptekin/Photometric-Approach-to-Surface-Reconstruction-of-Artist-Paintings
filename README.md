@@ -99,8 +99,8 @@ Miika Aittala, Tim Weyrich, and Jaakko Lehtinen. 2015. Two-shot SVBRDF capture f
 
 # Yağlı Boya Resimlerin Fotometrik Yaklaşım ile Yüzey Rekonstrüksiyonu 
 
-
-Interactive renderer program for the surface reconstruction of oil paintings, using [Two-Shot SVBRDF Capture for Stationary Materials](https://mediatech.aalto.fi/publications/graphics/TwoShotSVBRDF/) by Aittala et al (2015).
+Yağlı boya tabloların yüzey rekonstrüksiyonu için interaktif render programı 
+using [Two-Shot SVBRDF Capture for Stationary Materials](https://mediatech.aalto.fi/publications/graphics/TwoShotSVBRDF/) by Aittala et al (2015).
 
 
 ## Başlangıç
