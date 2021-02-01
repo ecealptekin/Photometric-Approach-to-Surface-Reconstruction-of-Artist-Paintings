@@ -101,22 +101,24 @@ Miika Aittala, Tim Weyrich, and Jaakko Lehtinen. 2015. Two-shot SVBRDF capture f
 
 # Yağlı Boya Resimlerin Fotometrik Yaklaşım ile Yüzey Rekonstrüksiyonu 
 
-Yağlı boya tabloların yüzey rekonstrüksiyonu için interaktif render programı 
-using [Two-Shot SVBRDF Capture for Stationary Materials](https://mediatech.aalto.fi/publications/graphics/TwoShotSVBRDF/) by Aittala et al (2015).
-
 Yağlı boya kullanılarak üretilmiş sanat eserlerinde malzemenin kendi yapısının olanak sağladığı farklı uygulama biçimlerinin, sanat eserinin orijinal görünümünde nasıl etkili rol oynadığı birçok sanat eleştirmeni ve tarihçisi tarafından üzerine çalışılan bir konu olmuştur. Bu doğrultuda sanat eserlerinin orijinaline en uygun şekilde görüntülenebilmesi için, fotoğrafın ötesinde, yağlı boya eserlerin doku ve parlaklık gibi resmin algılanışında etkili olan diğer özellikleri de yansıtılarak gerçeğe uygun bir reprodüksiyon üretilmesi amaçlanmaktadır.
+
+Yağlı boya tabloların yüzey rekonstrüksiyonu için interaktif render programı [Two-Shot SVBRDF Capture for Stationary Materials](https://mediatech.aalto.fi/publications/graphics/TwoShotSVBRDF/) Aittala et al (2015) tarafından hazırlanmış fotometrik parlaklık değerlerini kaydetme modeli kullanılarak tamamlanmıştır.
+
 
 ## Başlangıç
 
-1. Two photographs of the oilpainting should be taken without changing the camera position, preferably using stable tripod. Any smart phone camera would work, if the shots are succesful in terms of resolution and consistency.
-     - First photo should be taken under constant illumination conditions, but distinct highlight and shadows should be avoided in this guide photo. 
-     - Second photo should be taken using flash light, and the circular highligt due to the flash lighting should be close to the image center.
+1. Öncelikle kameranın pozisyonu değiştirilmeden, mümkünse tripod kullanılarak yağlı boyanın 2 fotoğrafı çekilmelidir. Resimlerin çözünürlüğü iyi olduğu sürece herhangi bir akıllı telefon kamerası yeterli olacaktır.
+     - İlk fotoğraf (guide fotoğrafı) doğal ışık altında, belirgin gölge ve parlamalar olmadan çekilmelidir. 
+     - İkinci fotoğraf ise flaş ışığı kullanılarak çekilmelidir. Flaş ışığından kaynaklı ana dairesel parlak alan, çekilen alanın ortasına denk getirilmelidir.
 
-2. Place the input photos in a single directory file, and named them as 
-     - guide.png or guide.jpg or guide.tiff 
-     - flash.png or flash.jpg or flash.tiff
-     
-3.  The directory file which consists images should be encapsulated by another file. To clarify, let's call this file _data_ . Inside of the _data_ file there should be the main directory. (e.g. data/painting)
+2. Çekilen iki fotoğraf aynı dosyaya yerleştirilmelidir. 
+     - İlk fotoğraf guide.jpg veya guide.png veya guide.tiff şeklinde adlandırılmalıdır.
+     - İkinci fotoğraf flash.jpg veya flash.png veya flash.tiff şeklinde adlandırılmalıdır.
+
+3. Fotoğrafların olduğu dosya başka bir dosyanın içine yerleştirilmelidir. (Örnek: data/resim/guide.jpg)
+
+
 
 4. After downloading source code of Two-Shot svBRDF capture model, open the source code in MATLAB (only MATLAB source code, not the renderer) by adding the paths of source code file. 
 
