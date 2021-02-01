@@ -97,7 +97,7 @@ Miika Aittala, Tim Weyrich, and Jaakko Lehtinen. 2015. Two-shot SVBRDF capture f
 
 
 
-#TURKCE
+# Turkish
 
 # Photometric Approach to Surface Reconstruction of Artist Paintings
 
