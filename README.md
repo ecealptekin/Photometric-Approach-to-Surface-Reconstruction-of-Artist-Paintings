@@ -48,7 +48,7 @@ Interactive renderer program for the surface reconstruction of oil paintings, us
 
 2. Add a 3D Object, Plane to the scene to illustrate the painting
 
-3. Create a material of the painting using the texture maps in the output file.
+3. Prepare the texture maps
      - Convert Specular Map and Diffusion Map into PNG using ImageMagick
      - Convert Normal Map into TIFF using ImageMagick
      - Use the input as the Base Map 
@@ -56,22 +56,34 @@ Interactive renderer program for the surface reconstruction of oil paintings, us
      - Adjusting image tones and correcting colors of the copied map with the image editor
      - Save the copied map as the Height Map
      
-4. Add a Spot Light 
+4. Add a Spot Light, which has the script MovingSLight.cs 
 
-5. Add 5 Buttons 
+5. Add a Canvas, an Event System and 5 Buttons 
      - Up
      - Down
      - Left
      - Right
      - Quit
      
-6. The C# scripts of the buttons are in the Assets folder. For each button add the corresponding script to the Inspector of that button. Change OnLick() as follows:
+6. The C# scripts of the buttons are in the Assets folder. For each button add the corresponding script to the Inspector of that button. Change OnClick() as follows:
 
 <img width="450" alt="Screenshot 2021-02-01 at 13 30 09" src="https://user-images.githubusercontent.com/48667985/106446780-b71b7e80-6491-11eb-964a-11e169cd045c.png">
 
-     
-     
-     
+7. The Spot Light is controllable by the keyboard. The keyboard preferences have to be set in Project Settings->Input Manager.
+
+8. The Plane rotates according to the directions written on the buttons when the buttons are pressed.
+
+9. Create a HDRP/LitTesellation material and apply texture maps to the material
+
+10. Apply the material to the Plane
+
+11. Select 
+     - Surface Options->Displacement Mode->Tesellation Displacement
+     - Tesellation Options->Tesellation Factor can be adjusted
+     - Surface Inputs->Base Map->Metallic can be adjusted
+     - Surface Inputs->Base Map->Smoothness Remapping can be adjusted
+     - Surface Inputs->Base Map->Ambient Occlusion Remapping can be adjusted
+     - Surface Inputs->Height Map->Parametrization->Amplitude can be adjusted
 
 
 ## References
