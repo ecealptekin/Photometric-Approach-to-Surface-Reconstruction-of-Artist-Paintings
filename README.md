@@ -71,7 +71,9 @@ Interactive renderer program for the surface reconstruction of oil paintings, us
 
 7. The Spot Light is controllable by the keyboard. The keyboard preferences have to be set in Project Settings->Input Manager
 
-8. The Plane rotates according to the directions written on the buttons when the buttons are pressed
+8. The Plane rotates according to the directions written on the buttons when the buttons are pressed. The Inspector of the Plane contains scripts of the Buttons and the Material 
+
+<img width="476" alt="Screenshot 2021-02-01 at 14 03 42" src="https://user-images.githubusercontent.com/48667985/106450536-5a6e9280-6496-11eb-9487-1a8b6f5a97c7.png">
 
 9. Create a HDRP/LitTesellation Material and apply texture maps to the Material
 
