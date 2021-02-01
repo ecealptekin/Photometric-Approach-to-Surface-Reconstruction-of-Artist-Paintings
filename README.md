@@ -65,7 +65,10 @@ Interactive renderer program for the surface reconstruction of oil paintings, us
      - Right
      - Quit
      
-6. The C# scripts of the buttons are in the Assets folder. 
+6. The C# scripts of the buttons are in the Assets folder. For each button add the corresponding script to the Inspector of that button. Change OnLick() as follows:
+
+<img width="450" alt="Screenshot 2021-02-01 at 13 30 09" src="https://user-images.githubusercontent.com/48667985/106446780-b71b7e80-6491-11eb-964a-11e169cd045c.png">
+
      
      
      
