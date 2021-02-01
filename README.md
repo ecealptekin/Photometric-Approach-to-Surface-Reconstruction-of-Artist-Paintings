@@ -73,11 +73,11 @@ Interactive renderer program for the surface reconstruction of oil paintings, us
 
 8. The Plane rotates according to the directions written on the buttons when the buttons are pressed
 
-9. Create a HDRP/LitTesellation material and apply texture maps to the material
+9. Create a HDRP/LitTesellation Material and apply texture maps to the Material
 
-10. Apply the material to the Plane
+10. Apply the Material to the Plane
 
-11. Select 
+11. Set the Material 
      - Surface Options->Displacement Mode->Tesellation Displacement
      - Tesellation Options->Tesellation Factor can be adjusted
      - Surface Inputs->Base Map->Metallic can be adjusted
