@@ -129,7 +129,7 @@ Yağlı boya tabloların yüzey rekonstrüksiyonu için interaktif render progra
      - Global Optimization Toolbox
      - Symbolic Math Toolbox
 
-7. Before running the model in MATLAB, field of view (FOV) value of the device used for photography and resolution of the photos should be updated in tex_alternate.m file. 
+7. Modeli MATLAB'da çalıştırmadan önce tex_alternate.m dosyasında fotoğraf çekimi için kullanılan cihazın görüş alanı (FOV) değeri ve fotoğrafların çözünürlüğü güncellenmelidir.
 
 
 ## İşleme
