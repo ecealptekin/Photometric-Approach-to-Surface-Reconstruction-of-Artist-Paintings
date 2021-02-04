@@ -116,18 +116,17 @@ Yağlı boya tabloların yüzey rekonstrüksiyonu için interaktif render progra
 
 3. Fotoğrafların olduğu dosya başka bir dosyanın içine yerleştirilmelidir. (Örnek: data/resim/guide.jpg)
 
+4. Two-Shot svBRDF Capture modelinin kaynak kodunu indirdikten sonra, kaynak kodu dosyasının yollarını ekleyerek MATLAB'de (yalnızca MATLAB kaynak kodu, oluşturucu değil) kaynak kodu açılmalıdır.
 
+5. SOLVE_ALL adlı ana kod dosyasında data_path ile _data_ dosyasının yolu değiştirilmelidir. Ardından, dizin dosya adı dosyalar adlı veri kümesi listesine eklenmelidir. (ör. resim)
 
-4. After downloading source code of Two-Shot svBRDF capture model, open the source code in MATLAB (only MATLAB source code, not the renderer) by adding the paths of source code file. 
-
-5. In the main code file called SOLVE_ALL, replace the data_path with path of your _data_ file. Then, add your directory file name to the dataset list called files. (e.g. painting) 
-
-6. Required add-ons for the succesful execution of the model in MATLAB are listed below.
+6. Modelin MATLAB'de başarılı bir şekilde yürütülmesi için gerekli eklentiler aşağıda listelenmiştir.
      - Parallel Computing Toolbox
      - Image Processing Toolbox
      - Simulink
      - Global Optimization Toolbox
      - Symbolic Math Toolbox
+   
 
 7. Modeli MATLAB'da çalıştırmadan önce tex_alternate.m dosyasında fotoğraf çekimi için kullanılan cihazın görüş alanı (FOV) değeri ve fotoğrafların çözünürlüğü güncellenmelidir.
 
