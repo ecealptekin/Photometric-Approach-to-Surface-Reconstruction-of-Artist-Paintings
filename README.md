@@ -138,7 +138,7 @@ Yağlı boya tabloların yüzey rekonstrüksiyonu için interaktif render progra
 
 8. Fotoğraftaki taranmaya çalışılan alanı kırpmak için aşağıdaki komut çalıştırılmalıdır.
      - tex_build_data ('/data/resim/')
-     - Bu komut, görüntünün kırpılmasına izin veren yeni bir pencere açacaktır. Fare tıklaması ile kırpma bölgesinin sol üst köşesi belirlenebilir ve + - tuşlarının kullanılması bölgenin yeniden boyutlandırılmasına izin verir. Kırpma tamamlandığında enter tuşuna basın.
+     - Bu komut, görüntünün kırpılmasına izin veren yeni bir pencere açacaktır. Fare tıklaması ile kırpma bölgesinin sol üst köşesi belirlenebilir ve + - tuşları bölgenin yeniden boyutlandırılmasına izin verir. Kırpma tamamlandığında enter tuşuna basın.
      
 9. Son adım, SOLVE_ALL dosyasını çalıştırmak ve çıktıyı beklemektir!
 
