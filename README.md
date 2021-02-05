@@ -38,6 +38,12 @@ Ece Alptekin
 
 7. Before running the model in MATLAB, field of view (FOV) value of the device used for photography and resolution of the photos should be updated in tex_alternate.m file. 
 
+8. The following command should be run in order to crop the area that tried to be scanned in the input image. 
+     tex_build_data('/data/painting/')
+     This command will open a new window that allows cropping the image. The mouse click places the upper left corner of the crop region, and using + - keys allows the region to be resized. When the cropping is completed press enter.
+     
+9. The final step is to run the SOLVE_ALL file, and waiting for the output!
+
 ## Rendering
 
 1. Create a new project with Unity using High Definition RP 7.3.1 version template
@@ -116,9 +122,9 @@ Yağlı boya tabloların yüzey rekonstrüksiyonu için interaktif render progra
 
 3. Fotoğrafların olduğu dosya başka bir dosyanın içine yerleştirilmelidir. (Örnek: data/resim/guide.jpg)
 
-4. Two-Shot svBRDF Capture modelinin kaynak kodunu indirdikten sonra, kaynak kodu dosyasının yollarını ekleyerek MATLAB'de (yalnızca MATLAB kaynak kodu, oluşturucu değil) kaynak kodu açılmalıdır.
+4. Two-Shot svBRDF Capture modelinin kaynak kodunu indirdikten sonra, kaynak kodu dosyasının yollarını ekleyerek MATLAB'de (yalnızca MATLAB kaynak kodu, renderer değil) kaynak kodu açılmalıdır.
 
-5. SOLVE_ALL adlı ana kod dosyasında data_path ile _data_ dosyasının yolu değiştirilmelidir. Ardından, dizin dosya adı dosyalar adlı veri kümesi listesine eklenmelidir. (ör. resim)
+5. SOLVE_ALL adlı ana kod dosyasında data_path ile _data_ dosyasının yolu değiştirilmelidir. Ardından, dizin dosya adı files adlı listeye eklenmelidir. (Örnek: 'resim')
 
 6. Modelin MATLAB'de başarılı bir şekilde yürütülmesi için gerekli eklentiler aşağıda listelenmiştir.
      - Parallel Computing Toolbox
@@ -129,6 +135,12 @@ Yağlı boya tabloların yüzey rekonstrüksiyonu için interaktif render progra
    
 
 7. Modeli MATLAB'da çalıştırmadan önce tex_alternate.m dosyasında fotoğraf çekimi için kullanılan cihazın görüş alanı (FOV) değeri ve fotoğrafların çözünürlüğü güncellenmelidir.
+
+8. Fotoğraftaki taranmaya çalışılan alanı kırpmak için aşağıdaki komut çalıştırılmalıdır.
+     tex_build_data ('/data/resim/')
+     Bu komut, görüntünün kırpılmasına izin veren yeni bir pencere açacaktır. Fare tıklaması ile kırpma bölgesinin sol üst köşesi belirlenebilir ve + - tuşlarının kullanılması bölgenin yeniden boyutlandırılmasına izin verir. Kırpma tamamlandığında enter tuşuna basın.
+     
+9. Son adım, SOLVE_ALL dosyasını çalıştırmak ve çıktıyı beklemektir!
 
 
 ## İşleme
