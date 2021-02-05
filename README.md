@@ -39,8 +39,8 @@ Ece Alptekin
 7. Before running the model in MATLAB, field of view (FOV) value of the device used for photography and resolution of the photos should be updated in tex_alternate.m file. 
 
 8. The following command should be run in order to crop the area that tried to be scanned in the input image. 
-     tex_build_data('/data/painting/')
-     This command will open a new window that allows cropping the image. The mouse click places the upper left corner of the crop region, and using + - keys allows the region to be resized. When the cropping is completed press enter.
+     - tex_build_data('/data/painting/')
+This command will open a new window that allows cropping the image. The mouse click places the upper left corner of the crop region, and using + - keys allows the region to be resized. When the cropping is completed press enter.
      
 9. The final step is to run the SOLVE_ALL file, and waiting for the output!
 
